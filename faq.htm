@@ -1,0 +1,1551 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!--meta name="viewport" content="widtd=device-widtd,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" /-->
+<meta name="autdor" content="미디어토마토" />
+<meta name="copyright" content="미디어토마토" />
+<meta name="title" content="디지털 언론사 통합솔루션, 미디어토마토">
+<meta name="keywords" content="미디어토마토, 토마토애드, 댓글모음, 자동조판시스템, 통합솔루션, 디지털 언론사, 뉴스, 신문, 인터넷신문 솔루션, 인터넷신문 저렴한 제작, 인터넷신문 제작, 자동조판,온라인 신문, 인터넷신문 제작, 인터넷신문솔루션, 종이신문제작, 댓글수집, 키워드 광고, 언론사사이트 제작" />
+<meta name="description" content="미디어토마토, 토마토애드, 댓글모음, 자동조판시스템, 통합솔루션, 디지털 언론사, 뉴스, 신문, 인터넷신문 솔루션, 인터넷신문 저렴한 제작, 인터넷신문 제작, 자동조판,온라인 신문, 인터넷신문 제작, 인터넷신문솔루션, 종이신문제작, 댓글수집, 키워드 광고, 언론사사이트 제작">
+<meta name="Robots" content="index, follow" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="./images/logo.png" />
+<meta property="og:site_name" content="미디어토마토 - 디지털 언론사 통합솔루션" />
+<meta property="og:url" content="http://www.tomatos.co.kr/" />
+<meta property="og:title" content="디지털 언론사 통합솔루션, 미디어토마토" />
+<meta property="og:image" />
+<meta property="og:description" content="미디어토마토, 토마토애드, 댓글모음, 자동조판시스템, 통합솔루션, 디지털 언론사, 뉴스, 신문, 인터넷신문 솔루션, 인터넷신문 저렴한 제작, 인터넷신문 제작, 자동조판,온라인 신문, 인터넷신문 제작, 인터넷신문솔루션, 종이신문제작, 댓글수집, 키워드 광고, 언론사사이트 제작" />
+<title>::: 미디어토마토 ::: 디지털 언론사 통합솔루션</title>
+
+<!-- Fav Icon -->
+<link rel="shortcut icon" href="./images/favicon_tomatoS.ico">
+
+<!-- Main Style -->
+<link rel="stylesheet" type="text/css" href="./css/style-noto.css" />
+<link rel="stylesheet" type="text/css" href="./css/tomatos-noto.css" />
+
+<!-- Main Javascript -->
+<script type="text/javascript" src="./js/script.js"></script>
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="./js/html5shiv.js"></script>
+<script type="text/javascript" src="./js/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="./js/html5shiv.js"></script>
+<script type="text/javascript" src="./js/respond.min.js"></script>
+
+<!-- jQuery -->
+<script type="text/javascript" src="./js/jquery-1.9.1.min.js"></script>
+<script src="./js/ui/1.11.4/jquery-ui.js"></script>
+<link rel="stylesheet" href="./js/ui/1.11.4/tdemes/smootdness/jquery-ui.css">
+
+<!-- Bootstrap Core JavaScript -->
+<script src="./js/bootstrap.min.js"></script>
+
+<!-- Scrolling Nav JavaScript -->
+<script src="./js/jquery.easing.min.js"></script>
+<script src="./js/scrolling-nav.js"></script>
+
+<!-- FlexSlider -->
+<script defer src="./js/jquery.flexslider.js"></script>
+
+<!-- 구글본고딕 웹폰트 ; 비동기 로더 -->
+<script type="text/javascript">
+WebFontConfig = {
+	custom: {
+		families: ['Noto Sans KR'],
+		urls: ['./css/notosanskr.css']
+		/*urls: ['http://fonts.googleapis.com/earlyaccess/nanumgotdic.css'] 나눔고딕*/
+	}
+};
+(function() {
+	var wf = document.createElement('script');
+	wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+	'://ajax.googleapis.com/ajax/libs/webfont/1.4.10/webfont.js';
+	wf.type = 'text/javascript';
+	wf.async = 'true';
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(wf, s);
+})(); 
+</script>
+
+<!-- 모바일 전환 js -->
+<script type="text/javascript">
+var ptype = "";
+
+if (ptype == null || ptype == "") {
+	if (navigator.userAgent.match(/ipad/) == null && navigator.userAgent.match(/iPhone|ipod|Mobile|Android|Windows Phone/) != null) {
+		location.replace("faq_m.htm");
+	}
+}
+</script>
+</head>
+
+<!--### 전체 레이아웃 시작 : WRAP ###-->
+<body onload="allblur();" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<!--## 헤더 시작 : HEADER ##-->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+		<div class="navbar-header page-scroll">
+			<a class="navbar-brand page-scroll logo" href="index.html"><img src="./images/logo.png" alt="미디어토마토"></a>
+		</div>
+		<div class="collapse navbar-collapse navbar-ex1-collapse">
+			<ul class="nav navbar-nav nav-tabs">
+				<li class="hidden active">
+					<a class="page-scroll" href="#page-top"></a>
+				</li>
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+						서비스
+						<b class="caret"></b>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="http://www.newstong.co.kr/DefaultNew.aspx" target="_blank">뉴스통</a></li>
+						<li><a href="http://ad.tomatos.co.kr/" target="_blank">토마토애드</a></li>
+						<li><a href="http://cms.tomatos.co.kr/" target="_blank">자동조판시스템</a></li>
+						<li><a href="http://5pinion.com/" target="_blank">댓글모음</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="company.htm" class="">회사소개</a>
+				</li>
+				<li>
+					<a href="report.htm" class="">보도자료</a>
+				</li>
+				<li>
+					<a href="data.htm" class="">자료실</a>
+				</li>
+				<li class="dropdown">
+					<a class="dropdown-toggle on" data-toggle="dropdown" href="#">
+						고객지원
+						<b class="caret"></b>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="faq.htm">자주하는 질문</a></li>
+						<li><a href="inquiry.htm">문의하기</a></li>
+					</ul>
+				</li>
+			</ul>
+			<ol class="nav navbar-nav nav-tabs">
+				<li>
+					<a href="https://www.facebook.com/tomatospage" target="_blank" class="facebook"></a>
+				</li>
+				<li class="dropdown">
+					<a class="dropdown-toggle nn_line" data-toggle="dropdown" href="#">
+						<img src="./images/all_menu.png" alt="전체보기">
+					</a>
+					<ul class="dropdown-menu">
+						<li><b>서비스</b></li>
+						<li class="mb10px">
+							<a href="http://www.newstong.co.kr/DefaultNew.aspx" target="_blank">뉴스통</a>
+							<a href="http://ad.tomatos.co.kr/" target="_blank">토마토애드</a>
+							<a href="http://cms.tomatos.co.kr/" target="_blank">자동조판시스템</a>
+							<a href="http://5pinion.com/" target="_blank">댓글모음</a>
+						</li>
+						<li><b><a href="company.htm">회사소개</a></b></li>
+						<li><b><a href="report.htm">보도자료</a></b></li>
+						<li><b><a href="data.htm">자료실</a></b></li>
+						<li><b>고객센터</b></li>
+						<li class="mb10px">
+							<a href="faq.htm">자주묻는 질문</a>
+							<a href="inquiry.htm">문의하기</a>
+						</li>
+						<li><b><a href="https://www.facebook.com/tomatospage" target="_blank">페이스북</a></b></li>
+					</ul>
+				</li>
+			</ol>
+		</div>
+	</div>
+</nav>
+<!--## 헤더 끝 : HEADER ##-->
+
+<!--## 메인 콘텐츠 시작 : MAIN CONTAINER ##-->
+<!--# 메인 배너 : MAIN BANNER #-->
+<div id="company" class="sub_screen sw4">
+	<div class="content">
+		<div class="xbctit mt45px white">
+			고객지원
+			<p class="xbc_w_bar"></p>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+
+<!--# 고객지원 : SERVICE #-->
+<div class="service_wrap">
+	<div class="content">
+		<div class="xctit">자주묻는 질문 FAQ</div>
+		<div class="xcstit mb50px">미디어토마토 서비스에 관련된 모든 궁금증을 해결하세요</div>
+		<div class="clear"></div>
+	</div>
+
+	<div class="content">
+		<ul class="tabs">
+			<li class="active"><a href="#tab1">TOP10</a></li>
+			<li class=""><a href="#tab2">토마토AD</a></li>
+			<li class=""><a href="#tab3">댓글모음</a></li>
+			<li class=""><a href="#tab4">자동조판</a></li>
+		</ul>
+		<div class="tab_container">
+			<div id="tab1" class="tab_content" style="display:none;">
+				<div class="container">
+					<div id="section1" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[자동조판]</b> 자동조판시스템은 어떤 서비스인가요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								자동조판시스템이란 온라인&amp;지면 제작이 자동으로 동시에 이뤄지는 솔루션입니다. 기자들이 작성한 모든 기사는 ‘뉴스룸’ (자동조판시스템 솔루션)에 저장된 후 온라인으로 송고되거나 조판시스템에 자동 배치됩니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+	
+					<div id="section2" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[자동조판]</b> 자동조판시스템의 장점은 무엇인가요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								<b>저렴한 비용! 높은 고효율!</b><br>
+								정보전달 플랫폼이 다양해진 상황에서 전통적인 신문제작 방식은 너무 큰 비용이 소요되는 현실입니다. 자동조판시스템을 도입하면 좀 더 효율적인 업무가 가능합니다. 신문사 내부에서 만든 것이라 실무에 필요한 핵심 기능만 모았습니다. 또한 시스템이 가벼워 범용성도 높습니다.<br>
+								각 면의 성격에 맞게 구성된 탬플릿을 활용하면 지면을 편집하는 시간을 효과적으로 줄일 수 있습니다. 또한 제작과정 단순화로 인건비 축소와 제작비용이 절감할 수 있으며, 다양한 탬플릿 활용으로 조판시간을 획기적으로 단축시킬 수 있습니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section3" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[자동조판]</b> 자동조판시스템 계약을 하고 싶은데 무엇을 준비해야 하나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								계약은 아래와 같이 진행됩니다.<br>
+								1, 자동조판솔루션 계약 담당자 연락<br>
+								- 김치덕 에디터 02-2128-3805, 010-6201-1840<br>
+								kcd40@etomato.com / mito@etomato.com<br>
+								2. (필요시) 내방 방문상담<br>
+								3. 필요서류 준비 : 사업자등록증<br>
+								4. 계약서 작성<br>
+								5. 솔루션 제공/운용
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section4" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[댓글모음]</b> 댓글모음은 어떤 서비스인가요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								네이버. 다음. 페이스북 등 국내 최대 포털에 달린 댓글을 한데 모아 언론사 사이트에 덧붙여 보여주는 포털 피드백 모음 서비스 입니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section5" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[댓글모음]</b> 댓글모음 장점은 무엇인가요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								뉴스보다 공감 얻는 댓글 트랜드 시대! 지금은 댓글의 무궁무진한 영향력을 주목할 때 입니다. 댓글모음은 포털 댓글 수집 및 분석을 통해 더 좋은 기사를 쓸 수 있게 도와드립니다.<br>
+								댓글모음을 통해 댓글을 읽어 보는 사용자들의 체류시간이 증가되어 광고수입 및 자사 서비스 제공기회가 넓어집니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section6" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[댓글모음]</b> 댓글모음 제공서비스는 어떻게 되나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								기본적으로 포털사용자의 댓글모음 표시, 댓글 검색, 댓글 정렬(호감순/인기순/등록순) 기능이 제공되며, 웹/모바일 동시지원 됩니다.<br>
+								또한 관리자페이지에서는 댓글 통계의 모든 것이 제공됩니다 (일별 댓글그래프/기사별/기자별 통계그래프/ 댓글 키워드 분석/ 시간대별 댓글 추세 그래프 등)<br>
+								자세한 내용은 <a href="http://5pinion.com/" target="_blank" class="blue" style="text-decoration:underline !important;">http://5pinion.com/</a> 에서 확인 가능합니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section7" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[댓글모음]</b> 댓글모음 계약을 하고 싶은데 무엇을 준비해야 하나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								계약은 아래와 같이 진행됩니다.<br>
+								1, 댓글모음 계약 담당자 연락<br>
+								- 손정협 대표 02-2128-3849, mito@etomato.com<br>
+								2. 계약상담 (필요시 내방 방문상담)<br>
+								3. 필요서류 준비 : 사업자등록증<br>
+								4. 계약체결 : 계약서 2부<br>
+								5. 솔루션 코드 제공/설치 (5분안에 설치가능합니다)<br>
+								6. 관리자페이지 계정 제공 (<a href="http://5pinion.com/v/tomsurvey" target="_blank" class="blue" style="text-decoration:underline !important;">http://5pinion.com/v/tomsurvey</a>)<br>
+								7. 댓글모음 서비스 운용
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section8" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[토마토AD]</b> 토마토AD는 어떤 서비스인가요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								토마토AD는 온라인 컨텐츠(기사/포스트)의 키워드를 분석하여 광고에 등록된 키워드와 매칭하여 배너광고를 보여주는 타겟팅 광고솔루션입니다. 고객이 컨텐츠를 읽을 때 관련 광고를 자연스럽게 노출하여 브랜드 가치를 강화할 수 있는 광고상품입니다.<br><br>
+								광고 게재를 원하는 광고주 고객과 블로그 혹은 개인/회사 사이트에 토마토AD를 무료로 설치하여 이윤을 얻는 퍼블리셔 고객 모두 사용 가능합니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section9" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[토마토AD]</b> 토마토AD 장점은 무엇인가요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								토마토AD를 이용하면 광고주는 등록된 키워드와 기사를 매칭, 브랜드관여도 높은 지면에 광고 게재할 수 있고, 퍼블리셔들은 무료로 코드를 복사하여 내 포스팅 내용과 관련있는 광고노출로 광고수익을 높일 수 있습니다.<br><br>
+								<b>광고주</b><br>
+								1. 자연스러운 키워드 매칭 Native Ad<br>
+								: 이용자에게 거부감 없이 자연스럽게 정보를 제공하는 Native 광고 상품입니다.<br><br>
+								2. 저렴한 비용 대비 높은 광고효과<br>
+								: 광고의 성과만큼만 광고비를 지불하는 저렴하고 합리적인 광고 상품입니다.<br><br>
+								3. 현재 인기 있는 키워드 정보 제공<br>
+								분야별 인기 있는 키워드 정보를 제공하며, 다양한 키워드 등록으로 타깃을 직접 최적화시킬 수 있습니다.<br><br>
+								4. 다양한 지면 노출<br>
+								토마토AD는 제휴된 주요 언론사 및 다양한 개인 사이트에 노출됩니다.<br><br><br>
+								<b>퍼블리셔</b><br>
+								1. 손쉬운 설치 및 내가 원하는 대로 설정가능<br>
+								간단한 광고코드 삽입으로 내가 직접 원하는 곳에 광고게시를 할 수 있습니다 (설치시간 5분)<br><br>
+								2, 사이트 방문자맞춤광고로 광고수익 up<br>
+								내 웹사이트에 토마토AD 광고를 게재하여 무료로 손쉽게 수익을 올릴 수 있습니다.<br>
+								웹사이트 방문자의 관심을 끌 만한 관련성 높은 광고를 게재할 수 있습니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section10" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[토마토AD]</b> 토마토AD 가입방법은 어떻게 됩니까?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								<b>광고주</b><br>
+								1. 광고주 사이트 가입 (<a href="http://ad.tomatos.co.kr/" target="_blank" class="blue" style="text-decoration:underline !important;">http://ad.tomatos.co.kr/</a>)<br>
+								2. 광고 캠페인 등록<br>
+								- 배너광고 게재 원하는 사이트 선택 (노출위치/노출기간/예산설정)<br>
+								- 게재할 배너 사이즈 확인하여 배너제작<br>
+								- 노출하고자 하는 키워드와 배너등록<br>
+								3. 광고노출 모니터링 (노출빈도/예산설정 등)<br>
+								<a href="http://ad.tomatos.co.kr/" target="_blank" class="blue" style="text-decoration:underline !important;">→ 광고주 등록페이지 바로가기</a><br><br>
+								<b>퍼블리셔</b><br>
+								1.	토마토AD 퍼블리셔 사이트 가입<br>
+								2.	사이트 추가하여 인증후, 토미토AD 광고코드 복사하여 내 사이트에 적용<br>
+								사이트 인증절차를 거쳐, 광고 게재를 원하는 위치를 선택하고, 해당 위치에 광고 코드를 삽입하여 광고 공간을 확보합니다.<br>
+								3.	관리자 페이지 수익금 지급<br>
+								토마토AD 관리자 사이트에서 수익금 지급 신청을 하여 수익금을 지급받으세요.<br>
+								<a href="javascript:alert('서비스 준비중입니다');" class="blue" style="text-decoration:underline !important;">→ 퍼블리셔 페이지 바로가기</a><br><br>
+								가입 및 설치에 관한 자세한 문의는 02-2128-3805 mito@etomato,com로 주시면 친절히 안내해드립니다<br><br>
+								토마토AD 광고주 가입문의 : 토마토AD 광고팀/ 이윤준 차장 02-2128-3840, leeyjad7@etomato.com
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="tab2" class="tab_content" style="display:none;">
+				<div class="container">
+					<div id="section1" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[서비스]</b> 토마토AD는 어떤 서비스인가요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								토마토AD는 온라인 컨텐츠(기사/포스트)의 키워드를 분석하여 광고에 등록된 키워드와 매칭하여 배너광고를 보여주는 타겟팅 광고솔루션입니다. 고객이 컨텐츠를 읽을 때 관련 광고를 자연스럽게 노출하여 브랜드 가치를 강화할 수 있는 광고상품입니다.<br>
+								광고 게재를 원하는 광고주 고객과 블로그 혹은 개인/회사 사이트에 토마토AD를 무료로 설치하여 이윤을 얻는 퍼블리셔 고객 모두 사용 가능합니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section2" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[서비스]</b> 토마토AD는 다른 광고 네트워크와 어떻게 다른가요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								<b>광고주</b><br>
+								토마토AD 솔루션은 컨텐츠 키워드 분석 광고를 사이트에 게재한다는 점이 다릅니다.<br>
+								블로그 및 기사 등 컨텐츠의 키워드를 분석하여 키워드 매칭 맞춤광고가 게재됩니다.<br>
+								광고주 타겟 도달율 높은 광고상품 입니다.<br><br>
+								<b>퍼블리셔</b><br>
+								내 웹사이트 방문자의 관심을 끌 만한 관련성 높은 광고를 게재하여 방문자의 거부감 없이 광고가 게재되며 관련 광고로 높은 광고수익을 올릴 수 있습니다.<br>
+								설치방법도 매우 간단합니다. 간단한 설치로 손쉽게 수익을 얻으세요.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section3" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[서비스]</b> 토마토AD 장점은 무엇인가요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								토마토AD를 이용하면 광고주는 등록된 키워드와 기사를 매칭, 브랜드관여도 높은 지면에 광고 게재할 수 있고, 퍼블리셔들은 무료로 코드를 복사하여 내 포스팅 내용과 관련있는 광고노출로 광고수익을 높일 수 있습니다.<br><br>
+								<b>광고주</b><br>
+								1. 자연스러운 키워드 매칭 Native Ad<br>
+								: 이용자에게 거부감 없이 자연스럽게 정보를 제공하는 Native 광고 상품입니다.<br><br>
+								2. 저렴한 비용 대비 높은 광고효과<br>
+								: 광고의 성과만큼만 광고비를 지불하는 저렴하고 합리적인 광고 상품입니다.<br><br>
+								3. 현재 인기 있는 키워드 정보 제공<br>
+								분야별 인기 있는 키워드 정보를 제공하며, 다양한 키워드 등록으로 타깃을 직접 최적화시킬 수 있습니다.<br><br>
+								4. 다양한 지면 노출<br>
+								토마토AD는 제휴된 주요 언론사 및 다양한 개인 사이트에 노출됩니다<br><br>
+								<b>퍼블리셔</b><br>
+								1. 손쉬운 설치 및 내가 원하는 대로 설정가능<br>
+								간단한 광고코드 삽입으로 내가 직접 원하는 곳에 광고게시를 할 수 있습니다 (설치시간 5분)<br><br>
+								2, 사이트 방문자맞춤광고로 광고수익up<br>
+								내 웹사이트에 토마토AD 광고를 게재하여 무료로 손쉽게 수익을 올릴 수 있습니다.<br>
+								웹사이트 방문자의 관심을 끌 만한 관련성 높은 광고를 게재할 수 있습니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section4" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[서비스]</b> 토마토AD 가입방법은 어떻게 됩니까?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								<b>광고주</b><br>
+								1.	광고주 사이트 가입<br>
+								2.	광고등록<br>
+								배너광고 게재 원하는 사이트 선택 (노출기간/ 예산 설정)<br>
+								게재할 배너 사이즈 확인하여 배너제작<br>
+								노출하고자 하는 키워드와 배너등록<br>
+								3.	광고노출 모니터링 (노출빈도/예산 설정 등)<br>
+								<a href="#" target="_blank" class="blue" style="text-decoration:underline !important;">→ 광고주 등록페이지 바로가기</a><br><br>
+								<b>퍼블리셔</b><br>
+								1.	토마토AD 퍼블리셔 사이트 가입<br>
+								2.	사이트 추가 후, 토미토AD 광고코드 복사하여 내 사이트에 적용<br>
+								사이트 인증절차를 거쳐, 광고 게재를 원하는 위치를 선택하고, 해당 위치에 광고 코드를 삽입하여 광고 공간을 확보합니다.<br>
+								3.	관리자 페이지 수익금 지급<br>
+								토마토AD 관리자 사이트에서 수익금 지급 신청을 하여 수익금을 지급받으세요.<br>
+								<a href="#" target="_blank" class="blue" style="text-decoration:underline !important;">→ 퍼블리셔 페이지 바로가기</a><br><br>
+								자세한 문의는 아래로 연락주시면 친절히 안내해드립니다.<br><br>
+								광고주 가입 담당자 : 이윤준 팀장 02-2128-3840 leeyjad7@etomato.com<br>
+								퍼블리셔 가입 담당자 : 황은교 팀장 02-2128-3805 mito@etomato.com
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section5" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[서비스]</b> 토마토AD 디자인 커스터마이징이 가능합니까?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								임대형(ASP) 서비스의 특성상 프로그램 기본 모듈은 수정해 드리지 않는 것이 원칙입니다.<br>
+								하지만 작업에 큰 어려움이 없다면 대부분 커스터마이징을 지원 해드리고 있습니다.<br><br>
+								<b>광고주</b><br>
+								배너 사이즈는 다양하게 제공되며, 배너 디자인 및 제작은 직접 하셔야 합니다.<br>
+								도움이 필요할 경우 mito@etomato.com / 02-2128-3840 로 연락주세요<br><br>
+								<b>퍼블리셔</b><br>
+								노출하고자 하는 배너 사이즈 및 위치설정이 가능합니다. 
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section6" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[퍼블리셔]</b> 토마토AD 퍼블리셔 회원가입은 어떻게 해야하나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								회원가입은 휴대폰 인증 형태로 진행됩니다. <a href="javascript:alert('서비스 준비중입니다');" class="blue" style="text-decoration:underline !important;">회원가입바로가기</a><br>
+								회원가입 -> 사이트 인증 -> 광고코드 삽입 순으로 진행됩니다
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section7" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[퍼블리셔]</b> 토마토AD 광고코드 설치시간은 얼마나 걸리나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								1. 회원가입하여 사이트 인증절차를 먼저 걸칩니다 (1시간~24시간에 사이트 인증완료)<br>
+								2. 인증이 완료된 후, 광고코드를 개인사이트에 HTML편집기 혹은 블로그내 HTML편집기능 버튼으로 복사 붙여넣기 방식으로 5분안에 가능합니다.<br><br>
+								<b>&lt;광고코드 HTML예시&gt;</b><br>
+								<pre class="tc_api">
+(function (win, doc, tnm, src, prad, a, m) {
+win['AdObject'] = prad; win[prad] = win[prad] || function () {
+(win[prad].q = win[prad].q || []).push(arguments)
+}, win[prad].l = 1 * new Date(); a = doc.createElement(tnm),
+m = doc.getElementsByTagName(tnm)[0]; a.async = 1; a.src = src; m.parentNode.insertBefore(a, m)
+})(window, document, 'script', 'http://ad.tomatos.co.kr/js/client/ad_lib_v4.js', 'prad');
+prad('init', { mname_key: 'newstong', r: location.href, g: 'PC', ad_list: [
+{m: 2, d: 10, s: 5024206, wrapper_id: 'ad_wrap_2_10', default_img: 'http://ad.tomatos.co.kr/img_banner/newstomato/250_250/250_250_1.jpg' }
+]
+});
+
+//            (function (win, doc, tnm, src, prad, a, m) {
+//                win['AdObject'] = prad; win[prad] = win[prad] || function () {
+//                    (win[prad].q = win[prad].q || []).push(arguments)
+//                }, win[prad].l = 1 * new Date(); a = doc.createElement(tnm),
+//m = doc.getElementsByTagName(tnm)[0]; a.async = 1; a.src = src; m.parentNode.insertBefore(a, m)
+//            })(window, document, 'script', 'http://ad.tomatos.co.kr/js/client/ad_lib_v3.js', 'prad');
+//            prad('init', { mname_key: 'newstong', r: location.href, g: 'PC', ad_list: [
+//    { m: 2, d: 10, s: 5024206, wrapper_id: 'ad_wrap1' , default_img: 'http://ad.tomatos.co.kr/img_banner/newstomato/690_100/690_100_1.jpg'}
+//    ,  {m: 2, d: 5, s: 5024206, wrapper_id: 'ad_wrap2', default_img: 'http://ad.tomatos.co.kr/img_banner/newstomato/250_250/250_250_1.jpg'}
+//    ,  {m: 2, d: 12, s: 5024206, wrapper_id: 'ad_wrap3', default_img: 'http://ad.tomatos.co.kr/img_banner/newstomato/690_200/690_200_1.jpg'}
+//    ,  {m: 2, d: 9, s: 5024206, wrapper_id: 'ad_wrap4', default_img: 'http://ad.tomatos.co.kr/img_banner/newstomato/120_600/120_600_1.jpg'}
+//]
+//            });
+
+//            $(document).ready(function() {
+////                if (location.href.indexOf("loc.newstomato.com") > -1) {
+//                if (location.href.indexOf("www.newstomato.com") > -1
+//                    || location.href.indexOf("http://newstomato.com") > -1
+//                    || location.href.indexOf("www9.newstomato.com") > -1
+//                    || location.href.indexOf("www10.newstomato.com") > -1
+//                    || location.href.indexOf("www4.newstomato.com") > -1
+//                ) {
+//                    $(".tomatos_ad_wrap").hide();
+//                } else {
+//                    $(".tomatos_ad_wrap").hide();
+////                    $(".tomatos_ad_wrap").show();
+//                }
+//            });
+								</pre>
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section8" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[설치-퍼블리셔]</b> 가이드대로 토마토AD 설치했는데 광고가 안나와요.
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								토마토AD광고코드를 가이드대로 정상적으로 설치하였음에도 광고가 확인되지 않을 경우 아래 사항을 확인해보세요!<br><br>
+								1. 중복으로 코드에 삽입되어 있는지 확인해주세요.<br>
+								2. 애드블럭 등 광고 차단 프로그램이 활성화되어 있는지 확인해주세요.<br>
+								-> 토마토AD가 차단되었다면, 화이트리스트로 추가하여 차단되지 않도록 해주세요.<br><br>
+								위 사항을 확인 후에도 문제가 해결되지 않으시다면, 02-2128-3840 / mito@etomato.com 으로 연락주시면 확인 후 도와드리겠습니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section9" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[퍼블리셔]</b> 코드 중복 생성이 가능합니까?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								도메인이 다른 경우, 한 계정에 사이트 추가하여 생성이 가능합니다.<br>
+								회원계정은 휴대폰 번호 1개에 1개가 생성됩니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section10" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[퍼블리셔]</b> 내 사이트에 게재할 광고를 선택해야 하나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								아니요.<br>
+								노출 하고자 하는 키워드를 등록하시면 토마토AD에서 키워드 분석을 하여 콘텐츠 또는 잠재고객에 맞는 광고를 자동으로 게재합니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section11" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[퍼블리셔]</b> 내 사이트에 게재되는 광고 디자인을 선택할 수 있나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								아니요.<br>
+								노출되는 배너는 키워드 분석시스템을 통해 광고가 게재되어 디자인은 선택불가합니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section12" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[퍼블리셔]</b> 내 사이트에서 광고를 볼 수 있나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								네.<br>
+								광고를 설정하고 게재가 시작되면 사이트에서 볼 수 있습니다. 
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section13" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[퍼블리셔]</b> 내 사이트에서 원하지 않는 광고가 보이면 삭제할 수 있나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								네.<br>
+								원치 않은 광고가 있으면 관리자페이지에서 차단신청이 가능합니다
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section14" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[퍼블리셔]</b> 토마토AD를 설치하려면 비용을 지불해야 하나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								아니요.<br>
+								토마토AD 프로그램은 무료입니다.<br>
+								사이트에 게재된 토마토AD 노출빈도에 따라 사이트 소유주에게 수익금을 지급합니다.<br>
+								수익금은 20,000원 이상시, 관리자페이지에서 현금전환 신청이 가능합니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section15" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[퍼블리셔]</b> 유지관리는 어떤 부분이 됩니까?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								임대형(ASP) 서비스의 특성상 프로그램이 제공되면 운영은 고객이 직접 하는 것이 원칙이지만 오류나 고객지원이 필요한 경우 24시간 연중무휴 지원해드립니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section16" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[퍼블리셔]</b> 서비스 계약기간 및 해지 위약금을 알려주세요
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								계약은 코드를 설치한 시점 이후부터 발생하며, 코드 삭제시 바로 해지 됩니다.<br>
+								해지시 위약금은 없습니다.<br>
+								자세한 사항은 02-2128-3840으로 연락주세요
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section17" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[퍼블리셔]</b> 수익금 입금은 어떻게 되나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								계좌번호와 성함을 관리자 페이지에 적어주시면 무통장 입금으로 입금해드립니다
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section18" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[광고주]</b> 토마토AD 광고주 회원가입은 어떻게 해야하나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								아래 사이트에서 법인명/사업자등록번호 등 정보를 기입하여 가입하면 바로 가입이 됩니다<br>
+								<a href="#" target="_blank" class="blue" style="text-decoration:underline !important;">회원가입바로가기</a><br><br>
+								<img src="./images/faq/faq_img1_1.jpg"><br><br>
+								토마토AD 광고주 가입에 관련한 문의는 아래로 연락주시면 자세히 안내해드리겠습니다.<br>
+								광고주 가입 담당자 : 이윤준 팀장 02-2128-3840 leeyjad7@etomato.com
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section19" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[광고주]</b> 토마토AD 광고 등록 방법은 어떻게 되나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								회원가입후 3단계를 걸쳐 간편하게 광고등록이 바로 가능합니다.<br>
+								- 캠페인 등록 -> 광고그룹 등록 -> 광고게시<br><br>
+								<img src="./images/faq/faq_img1_2.jpg">
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section20" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[광고주]</b> 토마토AD 광고 배너 제작 및 등록 대행도 해주시나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								토마토AD는 임대형(ASP) 서비스의 특성상 프로그램이 제공되면 운영은 고객이 직접 하는 것이 원칙이지만 오류나 고객지원이 필요한 경우 24시간 연중무휴 지원해드립니다.<br><br>
+								배너 디자인 제작 대행은 소액의 금액으로 유료로 대행해드리고 있습니다.<br>
+								첫 가입 후 프로모션 기간에는 무료 제작도 가능합니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section21" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[광고주]</b> 토마토AD 키워드 맞춤광고가 뭔가요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								토마토AD 솔루션은 광고를 게재하는 사이트 컨텐츠의 키워드를 분석하여 컨텐츠의 대표 키워드 10개를 추출합니다. 사이트 컨텐츠와 등록된 광고의 키워드가 매칭시에 해당 광고가 게재되며, 매칭된 키워드가 없을때는 랜덤으로 광고가 노출됩니다.<br><br>
+								광고주를 위해 광고등록시, 등록하고자 하는 사이트의 자주 나오는 최다 키워드 TOP 50개의 빈도수 정보가 제공되며, 광고주는 광고와 관련된 키워드를 최대 100개까지 등록이 가능합니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section22" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[광고주]</b> 토마토AD 광고비용은 어떻게 되나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								기본입찰가는 1원입니다. 노출수에 따라 금액이 책정됩니다.<br>
+								지출되는 금액은 광고주가 설정할 수 있으며, 언제든지 변경 가능합니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section23" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[광고주]</b> 토마토AD 결제방법은 어떻게 되나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								사이트내에서 신용카드 결제를 통해 광고예산을 충전합니다 (1000원부터 충전시작)<br>
+								충전된 금액은 광고예산으로 설정되며 클릭당 혹은 노출당 광고수에 따라 자동차감됩니다.<br>
+								환불은 사이트에 가능하며 환불수수료 10%가 차감된 나머지 금액이 환불됩니다.<br><br>
+								<img src="./images/faq/faq_img1_3.jpg">
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section24" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[광고주]</b> 토마토AD 보고서도 제공되나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								노출수와 클릭수 CTR 등 기간을 설정하여 광고리포트를 보실 수 있으며, 엑셀파일로 다운로드도 가능합니다.<br><br>
+								<img src="./images/faq/faq_img1_4.jpg">
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="tab3" class="tab_content" style="display:none;">
+				<div class="container">
+					<div id="section1" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[서비스]</b> 댓글모음은 어떤 서비스인가요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								네이버. 다음. 페이스북 등 국내 최대 포털의 댓글을 한데 모아 언론사 사이트에 덧붙여 보여주는 포털 피드백 모음 서비스 입니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section2" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[서비스]</b> 댓글모음 장점은 무엇인가요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								뉴스보다 공감 얻는 댓글 트랜드 시대! 지금은 댓글의 무궁무진한 영향력을 주목할 때 입니다. 댓글모음은 포털 댓글 수집 및 분석을 통해 더 좋은 기사를 쓸 수 있게 도와드립니다.<br>
+								댓글모음을 통해 댓글을 읽어 보는 사용자들의 체류시간이 증가되어 광고수입 및 자사 서비스 제공기회가 넓어집니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section3" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[서비스]</b> 댓글모음 제공서비스는 어떻게 되나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								기본적으로 포털사용자의 댓글모음 표시, 댓글 검색, 댓글 정렬(호감순/인기순/등록순) 기능이 제공되며, 웹/모바일 동시지원 됩니다.<br>
+								또한 관리자페이지에서는 댓글 통계의 모든 것이 제공됩니다 (일별 댓글그래프/기사별/기자별 통계그래프/ 댓글 키워드 분석/ 시간대별 댓글 추세 그래프 등)<br>
+								자세한 내용은 <a href="#" target="_blank" class="blue" style="text-decoration:underline !important;">http://5pinion.com/sub</a>  확인가능합니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section4" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[서비스]</b> 댓글모음 디자인 커스터마이징이 가능합니까?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								임대형(ASP) 서비스의 특성상 프로그램 기본 모듈은 수정해 드리지 않는 것이 원칙입니다.<br>
+								하지만 작업에 큰 어려움이 없다면 대부분 커스터마이징을 지원 해드리고 있습니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section5" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[서비스]</b> 댓글모음의 포털 댓글수집의 법적이슈는 없나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								200자 이내의 댓글에 대해서는 저작권이 없습니다. 이는 저작권위원회로부터 공문으로 확인 받았습니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section6" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[서비스]</b> SNS 댓글작성업체와 차별점이 뭔가요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								댓글모음 서비스는 SNS댓글 작성뿐만 아니라 포털 사이트 뿔뿔이 흩어져 있는 댓글을 한 곳에 모아 제공/ 분석해드리는 서비스 입니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section7" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[서비스]</b> 댓글 작성창의 SNS로그인 종류는 어떻게 되나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								기본 4개 (페이스북/트위터/카카오/네이버)이며, 필요시 추가 커스터마이징 해드립니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section8" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[설치]</b> 계약 후 댓글모음 API 설치기간은 얼마나 걸리나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								제작은 계약 후 1일~3일 정도 소요됩니다.<br>
+								설치시간은 간단한 코드삽입으로 5분미만으로 걸립니다.<br>
+								계약시 원하는 날짜를 말씀해 주시면 최대한 맞춰드리겠습니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section9" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[설치]</b> 가이드대로 설치했는데 댓글모음이 설치되지 않아요.
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								가이드대로 정상적으로 설치하였음에도 댓글모음이 확인되지 않을 경우 아래 사항을 확인해보세요!<br><br>
+								1. 중복으로 코드에 삽입되어 있는지 확인해주세요.<br>
+								2. 애드블럭 등 광고 차단 프로그램이 활성화되어 있는지 확인해주세요.<br>
+								-> 댓글모음이 차단되었다면, 화이트리스트로 추가하여 차단되지 않도록 해주세요.<br><br>
+								위 사항을 확인 후에도 문제가 해결되지 않으시다면, 02-2128-3805 / mito@etomato.com 으로 연락주시면 확인 후 도와드리겠습니다~
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section10" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[운영]</b> 댓글모음 관리자 아이디는 몇 개가 발부되나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								기본적으로 1개가 제공됩니다. (추가 계정이 필요시 협의후 필요한 수만큼 제공됩니다)
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section11" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[운영]</b> 댓글을 몇명 썼는지 알 수 있나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								네,<br>
+								관리자페이지에 기사수/ 댓글수 실시간 조회가 가능합니다
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section12" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[운영]</b> 악성댓글의 경우 삭제할 수 있나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								관리자 페이지에서 비노출 처리가 가능합니다
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section13" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[운영]</b> 댓글모음 유지관리는 어떤 부분이 됩니까?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								임대형(ASP) 서비스의 특성상 프로그램이 제공되면 운영은 고객이 직접 하는 것이 원칙이지만 오류나 고객지원이 필요한 경우 24시간 연중무휴 지원해드립니다.<br>
+								고객지원센터 02-2128-3899
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section14" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[계약]</b> 댓글모음 계약을 하고 싶은데 무엇을 준비해야 하나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								계약은 아래와 같이 진행됩니다.<br>
+								1. 댓글모음 계약 담당자 연락<br>
+								- 손정협 대표 02-2128-3849, mito@etomato.com<br>
+								2. 계약상담<br>
+								3. 필요서류 준비 : 사업자등록증 or 대표자신분증<br>
+								4. 계약체결 : 계약서 2부<br>
+								5. 솔루션 코드 제공/설치 (5분안에 설치가능합니다)<br>
+								6. 관리자페이지 계정 제공 (<a href="http://5pinion.com/v/tomsurvey" target="_blank" class="blue" style="text-decoration:underline !important;">http://5pinion.com/v/tomsurvey</a>) / 댓글모음 서비스 운용
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section15" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[계약]</b> 댓글모음 계약서는 어떻게 받죠? (계약서 발송)
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								계약이 체결된 후 최종계약서는 미디어토마토에서 2부를 먼저 발송합니다.<br>
+								계약서를 받으실 주소와 계약 담당자 성함을 반드시 알려주셔야 합니다.<br>
+								관리자페이지 계정 발급은 계약이 완료된 이후 발급이 가능합니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section16" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[계약]</b> 댓글모음 계약비용은 얼마입니까?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								댓글 솔루션을 ASP 형태로 하여 무료로 일정기간 제공되며, 이후 사이트 일평균 PV 1000 초과시 키워드 맞춤 광고, 토마토AD 솔루션으로 댓글모음 영역 하단에 광고가 삽입될 예정입니다. 삽입된 광고는 소액결제를 통해 삭제 가능합니다. (금액문의는 02-2128-3805으로 주세요)
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section17" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[계약]</b> 댓글모음 서비스 계약기간 및 해지 위약금을 알려주세요
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								1년 단위의 계약이 가능하며, 해지시 위약금은 없습니다.<br>
+								자세한 사항은 02-2128-3899으로 연락주세요.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section18" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[계약]</b> 댓글모음 결제형태는 어떤 것이 있나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								신용카드, 무통장 입금, 세금 계산서 발행 등 원하시는 형태로 결제가 가능합니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section19" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[계약]</b> 댓글모음 세금계산서는 언제 발행되나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								통상 20일, 25일로 계산서가 발행되지만 고객이 원하는 일자에도 발급이 가능합니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="tab4" class="tab_content" style="display:none;">
+				<div class="container">
+					<div id="section1" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[서비스]</b> 자동조판시스템은 어떤 서비스인가요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								자동조판시스템이란 온라인&amp;지면 제작이 자동으로 동시에 이뤄지는 솔루션입니다.<br>
+								기자들이 작성한 모든 기사는 ‘뉴스룸’ (자동조판시스템 솔루션)에 저장된 후 온라인으로 송고되거나 조판시스템에 자동 배치됩니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section2" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[서비스]</b> 자동조판시스템의 장점은 무엇인가요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								<b>저렴한 비용! 높은 고효율!</b><br>
+								정보전달 플랫폼이 다양해진 상황에서 전통적인 신문제작 방식은 너무 큰 비용이 소요되는 현실입니다. 자동조판시스템을 도입하면 좀 더 효율적인 업무가 가능합니다.<br>
+								신문사 내부에서 만든 것이라 실무에 필요한 핵심 기능만 모았습니다. 또한 시스템이 가벼워 범용성도 높습니다.<br>
+								각 면의 성격에 맞게 구성된 탬플릿을 활용하면 지면을 편집하는 시간을 효과적으로 줄일 수 있습니다.<br>
+								또한 제작과정 단순화로 인건비 축소와 제작비용이 절감할 수 있으며, 다양한 탬플릿 활용으로 조판시간을 획기적으로 단축시킬 수 있습니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section3" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[서비스]</b> 자동조판시스템 계약 후 제작기간은 얼마나 걸리나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								제작은 계약 후 1~2주 정도 소요됩니다.<br>
+								솔루션 셋팅 -> 관리자교육 순으로 작업이 진행됩니다.<br>
+								계약시 원하는 날짜를 말씀해 주시면 최대한 맞춰드리겠습니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section4" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[서비스]</b> 자동조판시스템 커스터마이징이 가능합니까?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								임대형(ASP) 서비스의 특성상 프로그램 기본 모듈은 수정해 드리지 않는 것이 원칙입니다.<br>
+								하지만 작업에 큰 어려움이 없다면 대부분 커스터마이징을 지원 해드리고 있습니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section5" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[운영]</b> 자동조판시스템 아이디는 몇 개가 발부되나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								계약에 따라 필요한 수만큼 제공됩니다
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section6" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[운영]</b> 자동조판시스템 사용방법은 어떻게 되나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								자동조판솔루션 접속 -> 기사 작성 -> 광고등록(필요시) -> 편집 -> 모니터링 -> 출고<br>
+								사용방법은 매우 간편합니다. 사용방법을 숙지하실 때까지 지원해드립니다
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section7" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[운영]</b> 자동조판시스템 유지관리는 어떤 부분이 됩니까?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								임대형(ASP) 서비스의 특성상 프로그램이 제공되면 운영은 고객이 직접 하는 것이 원칙이지만 오류나 고객지원이 필요한 경우 24시간 연중무휴 지원해드립니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section8" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[운영]</b> 자동조판시스템을 적용하면 기사/자료 등록 관리 대행 해주시나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								원칙은 기사등록 관리는 대행하지 않습니다. 하지만 비상시 필요하다면 지원해드리겠습니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section9" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[운영]</b> 편집기자 없으면 답답할 것 같은데?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								디지털 시대 누구나 쉽게 제작이 가능할 수 있도록 고민하여 만들었습니다. 자동조판시스템을 적용하시는 당신은 이제 취재에만 집중해도 됩니다. 자동조판시스템이 당신의 편집기자가 되어드립니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section10" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[운영]</b> 자동조판시스템은 편집뿐만 아니라 인쇄와 배송서비스도 되나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								광역시/도별로 신문 인쇄전문업체와의 협약을 통해 인쇄와 배송에 관한 계약 업무는 저희가 안내해 드리고, 계약(결재 포함)은 업체와 직접 체결하시면 됩니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section11" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[계약]</b> 자동조판시스템 계약을 하고 싶은데 무엇을 준비해야 하나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								계약은 아래와 같이 진행됩니다.<br>
+								1, 자동조판솔루션 계약 담당자 연락<br>
+								- 김치덕 에디터 02-2128-3805, 010-6201-1840<br>
+								kcd40@etomato.com/  mito@etomato.com<br>
+								2. 내방 방문상담<br>
+								3. 필요서류 준비 : 사업자등록증<br>
+								4. 계약서 작성<br>
+								5. 솔루션 제공/운용
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section12" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[계약]</b> 자동조판시스템 계약비용은 얼마입니까?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								계약기간에 따라 비용이 달라집니다.<br>
+								자세한 사항은 02-2128-3805 계약담당자에게 연락 주시기 바랍니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section13" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[계약]</b> 자동조판시스템 서비스 계약기간 및 해지 위약금을 알려주세요
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								1년 단위의 계약이 가능하며, 해지시 10%의 위약금이 발생합니다.<br>
+								자세한 사항은 02-2128-3805으로 연락주세요
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section14" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[계약]</b> 자동조판시스템 결제형태는 어떤 것이 있나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								신용카드, 무통장 입금, 세금 계산서 발행 등 원하시는 형태로 결제가 가능합니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+
+					<div id="section15" class="accordion">
+						<b class="actit"><img src="./images/icon/faq_img.png" alt="질문"></b>
+						<b>[계약]</b> 자동조판시스템 세금계산서는 언제 발행되나요?
+						<span></span>
+					</div>
+					<div class="acontainer">
+						<div class="acontent">
+							<b class="actxt">&nbsp;</b>
+							<p class="accop">
+								통상 20일, 25일로 계산서가 발행되지만 고객이 원하는 일자에도 발급이 가능합니다.
+							</p>
+							<div class="clear"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="clear"></div>
+</div>
+<!--## 메인 콘텐츠 시작 : MAIN CONTAINER ##-->
+
+<!--## 푸터 시작 : FOOTER ##-->
+<div class="footer">
+	<div class="footer_case">
+		<!--# 푸터 정보 #-->
+		<div class="f_info">
+			<div class="fi_logo">
+				<img src="./images/logo.png" alt="로고">
+				<span class="ml20px">Copyright ⓒ Mediatomato. All rights reserved.</span>
+			</div>
+			<div class="fi_btxt">
+				미디어토마토는 국내최고 기술을 기반으로<br>
+				디지털 언론사 통합솔루션을 제공합니다.
+			</div>
+			<div class="fi_txt">
+				대표자 : 김성연<br>
+				대표전화 : 02.2128.3849 I 제휴문의 02-2128-3899<br>
+				이메일 : mito@etomato.com<br>
+				서울시 마포구 양화진4길 32 이토마토 3층
+			</div>
+		</div>
+
+		<!--# 푸터 메뉴 #-->
+		<div class="f_menu">
+			<div class="fm_case">
+				<ul>
+					<li><b>바로가기</b></li>
+					<li><a href="index.html">미디어토마토 홈</a></li>
+					<li><a href="agreement.htm">이용약관</a></li>
+					<li><a href="privacy.htm">개인정보 처리방침</a></li>
+				</ul>
+				<p>고객센터<br>02-2128-3805</p>
+			</div>
+
+			<div class="fm_case">
+				<ul>
+					<li><b>바로가기</b></li>
+					<li><a href="http://www.newstong.co.kr" target="_blank">뉴스통</a></li>
+					<li><a href="http://5pinion.com/" target="_blank">댓글모음</a></li>
+					<li><a href="http://cms.tomatos.co.kr" target="_blank">자동조판시스템</a></li>
+					<a href="https://www.etomato.com/home/navigation.aspx" target="_blank" class="fc_btn">Family Site</a>
+				</ul>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+<!--## 푸터 끝 : FOOTER ##-->
+
+<!-- 일괄 선택 스크립트 -->
+<script type="text/javascript">
+$('#checkAll').change(function() {
+	$('.list-check').prop('checked', $(this).prop('checked'));
+});
+</script>
+
+<!-- Main Slider -->
+<script type="text/javascript">
+$(window).load(function(){
+	$('.flexslider').flexslider({
+		animation: "slide"
+	});
+});
+</script>
+
+<!-- Swiper JS -->
+<script type="text/javascript" src="./js/swiper.js"></script>
+<script type="text/javascript">
+var swiper = new Swiper('.swiper-container', {
+	pagination: '.swiper-pagination',
+	paginationClickable: true,
+	nextButton: '.swiper-button-next',
+	prevButton: '.swiper-button-prev'
+	/*loop:'auto'*/
+});
+</script>
+
+<!-- faq -->
+<script type="text/javascript" src="./js/highlight.pack.js"></script>
+<script type="text/javascript" src="./js/jquery.accordion.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	//syntax highlighter
+	hljs.tabReplace = '    ';
+	hljs.initHighlightingOnLoad();
+
+	$.fn.slideFadeToggle = function(speed, easing, callback) {
+		return this.animate({opacity: 'toggle', height: 'toggle'}, speed, easing, callback);
+	};
+
+	//accordion
+	$('.accordion').accordion({
+		defaultOpen: 'section',  // 미지정 시 전부 Close 상태
+		cookieName: 'accordion_nav',
+		speed: 'slow',
+		animateOpen: function (elem, opts) { //replace the standard slideUp with custom function
+			elem.next().stop(true, true).slideFadeToggle(opts.speed);
+		},
+		animateClose: function (elem, opts) { //replace the standard slideDown with custom function
+			elem.next().stop(true, true).slideFadeToggle(opts.speed);
+		}
+	});
+});
+</script>
+
+<!-- Main Style : FAQ 최하단 배치 -->
+<script type="text/javascript" src="./js/main.js"></script>
+</body>
+<!--### 전체 레이아웃 끝 : WRAP ###-->
+</html>

@@ -1,0 +1,580 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!--meta name="viewport" content="widtd=device-widtd,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" /-->
+<meta name="autdor" content="미디어토마토" />
+<meta name="copyright" content="미디어토마토" />
+<meta name="title" content="디지털 언론사 통합솔루션, 미디어토마토">
+<meta name="keywords" content="미디어토마토, 토마토애드, 댓글모음, 자동조판시스템, 통합솔루션, 디지털 언론사, 뉴스, 신문, 인터넷신문 솔루션, 인터넷신문 저렴한 제작, 인터넷신문 제작, 자동조판,온라인 신문, 인터넷신문 제작, 인터넷신문솔루션, 종이신문제작, 댓글수집, 키워드 광고, 언론사사이트 제작" />
+<meta name="description" content="미디어토마토, 토마토애드, 댓글모음, 자동조판시스템, 통합솔루션, 디지털 언론사, 뉴스, 신문, 인터넷신문 솔루션, 인터넷신문 저렴한 제작, 인터넷신문 제작, 자동조판,온라인 신문, 인터넷신문 제작, 인터넷신문솔루션, 종이신문제작, 댓글수집, 키워드 광고, 언론사사이트 제작">
+<meta name="Robots" content="index, follow" />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="./images/logo.png" />
+<meta property="og:site_name" content="미디어토마토 - 디지털 언론사 통합솔루션" />
+<meta property="og:url" content="http://www.tomatos.co.kr/" />
+<meta property="og:title" content="디지털 언론사 통합솔루션, 미디어토마토" />
+<meta property="og:image" />
+<meta property="og:description" content="미디어토마토, 토마토애드, 댓글모음, 자동조판시스템, 통합솔루션, 디지털 언론사, 뉴스, 신문, 인터넷신문 솔루션, 인터넷신문 저렴한 제작, 인터넷신문 제작, 자동조판,온라인 신문, 인터넷신문 제작, 인터넷신문솔루션, 종이신문제작, 댓글수집, 키워드 광고, 언론사사이트 제작" />
+<title>::: 미디어토마토 ::: 디지털 언론사 통합솔루션</title>
+
+<!-- Fav Icon -->
+<link rel="shortcut icon" href="./images/favicon_tomatoS.ico">
+
+<!-- Main Style -->
+<link rel="stylesheet" type="text/css" href="./css/style-noto.css" />
+<link rel="stylesheet" type="text/css" href="./css/tomatos-noto.css" />
+
+<!-- Main Javascript -->
+<script type="text/javascript" src="./js/script.js"></script>
+
+<!--[if lt IE 9]>
+<script type="text/javascript" src="./js/html5shiv.js"></script>
+<script type="text/javascript" src="./js/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="./js/html5shiv.js"></script>
+<script type="text/javascript" src="./js/respond.min.js"></script>
+
+<!-- jQuery -->
+<script type="text/javascript" src="./js/jquery-1.9.1.min.js"></script>
+<script src="./js/ui/1.11.4/jquery-ui.js"></script>
+<link rel="stylesheet" href="./js/ui/1.11.4/tdemes/smootdness/jquery-ui.css">
+
+<!-- Bootstrap Core JavaScript -->
+<script src="./js/bootstrap.min.js"></script>
+
+<!-- Scrolling Nav JavaScript -->
+<script src="./js/jquery.easing.min.js"></script>
+<script src="./js/scrolling-nav.js"></script>
+
+<!-- FlexSlider -->
+<script defer src="./js/jquery.flexslider.js"></script>
+
+<!-- 구글본고딕 웹폰트 ; 비동기 로더 -->
+<script type="text/javascript">
+WebFontConfig = {
+	custom: {
+		families: ['Noto Sans KR'],
+		urls: ['./css/notosanskr.css']
+		/*urls: ['http://fonts.googleapis.com/earlyaccess/nanumgotdic.css'] 나눔고딕*/
+	}
+};
+(function() {
+	var wf = document.createElement('script');
+	wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+	'://ajax.googleapis.com/ajax/libs/webfont/1.4.10/webfont.js';
+	wf.type = 'text/javascript';
+	wf.async = 'true';
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(wf, s);
+})(); 
+</script>
+
+<!-- 모바일 전환 js -->
+<script type="text/javascript">
+var ptype = "";
+
+if (ptype == null || ptype == "") {
+	if (navigator.userAgent.match(/ipad/) == null && navigator.userAgent.match(/iPhone|ipod|Mobile|Android|Windows Phone/) != null) {
+		location.replace("inquiry_m.htm");
+	}
+}
+</script>
+</head>
+
+<!--### 전체 레이아웃 시작 : WRAP ###-->
+<body onload="allblur();" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<!--## 헤더 시작 : HEADER ##-->
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+		<div class="navbar-header page-scroll">
+			<a class="navbar-brand page-scroll logo" href="index.html"><img src="./images/logo.png" alt="미디어토마토"></a>
+		</div>
+		<div class="collapse navbar-collapse navbar-ex1-collapse">
+			<ul class="nav navbar-nav nav-tabs">
+				<li class="hidden active">
+					<a class="page-scroll" href="#page-top"></a>
+				</li>
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+						서비스
+						<b class="caret"></b>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="http://www.newstong.co.kr/DefaultNew.aspx" target="_blank">뉴스통</a></li>
+						<li><a href="http://ad.tomatos.co.kr/" target="_blank">토마토애드</a></li>
+						<li><a href="http://cms.tomatos.co.kr/" target="_blank">자동조판시스템</a></li>
+						<li><a href="http://5pinion.com/" target="_blank">댓글모음</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="company.htm" class="">회사소개</a>
+				</li>
+				<li>
+					<a href="report.htm" class="">보도자료</a>
+				</li>
+				<li>
+					<a href="data.htm" class="">자료실</a>
+				</li>
+				<li class="dropdown">
+					<a class="dropdown-toggle on" data-toggle="dropdown" href="#">
+						고객지원
+						<b class="caret"></b>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="faq.htm">자주하는 질문</a></li>
+						<li><a href="inquiry.htm">문의하기</a></li>
+					</ul>
+				</li>
+			</ul>
+			<ol class="nav navbar-nav nav-tabs">
+				<li>
+					<a href="https://www.facebook.com/tomatospage" target="_blank" class="facebook"></a>
+				</li>
+				<li class="dropdown">
+					<a class="dropdown-toggle nn_line" data-toggle="dropdown" href="#">
+						<img src="./images/all_menu.png" alt="전체보기">
+					</a>
+					<ul class="dropdown-menu">
+						<li><b>서비스</b></li>
+						<li class="mb10px">
+							<a href="http://www.newstong.co.kr/DefaultNew.aspx" target="_blank">뉴스통</a>
+							<a href="http://ad.tomatos.co.kr/" target="_blank">토마토애드</a>
+							<a href="http://cms.tomatos.co.kr/" target="_blank">자동조판시스템</a>
+							<a href="http://5pinion.com/" target="_blank">댓글모음</a>
+						</li>
+						<li><b><a href="company.htm">회사소개</a></b></li>
+						<li><b><a href="report.htm">보도자료</a></b></li>
+						<li><b><a href="data.htm">자료실</a></b></li>
+						<li><b>고객센터</b></li>
+						<li class="mb10px">
+							<a href="faq.htm">자주묻는 질문</a>
+							<a href="inquiry.htm">문의하기</a>
+						</li>
+						<li><b><a href="https://www.facebook.com/tomatospage" target="_blank">페이스북</a></b></li>
+					</ul>
+				</li>
+			</ol>
+		</div>
+	</div>
+</nav>
+<!--## 헤더 끝 : HEADER ##-->
+
+<!--## 메인 콘텐츠 시작 : MAIN CONTAINER ##-->
+<!--# 메인 배너 : MAIN BANNER #-->
+<div id="company" class="sub_screen sw4">
+	<div class="content">
+		<div class="xbctit mt45px white">
+			고객지원
+			<p class="xbc_w_bar"></p>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+
+<!--# 고객지원 : SERVICE #-->
+<div class="service_wrap">
+	<div class="content">
+		<div class="xctit">문의하기</div>
+		<div class="xcstit mb0px">미디어토마토 서비스 관련 1:1 상담을 통해 지원 범위와 견적 등을 상세히 안내 받으실 수 있습니다.</div>
+		<div class="sctxt mb50px">(아래 양식에 가입된 사항은 담당자 외 제3자가 열람하지 않습니다.)</div>
+		<div class="clear"></div>
+	</div>
+
+	<div class="content">
+		<ul class="tabs">
+			<li class="active"><a href="#tab1">자동조판시스템</a></li>
+			<li class=""><a href="#tab2">댓글모음</a></li>
+			<li class=""><a href="#tab3">토마토AD</a></li>
+		</ul>
+		<div class="tab_container">
+			<div id="tab1" class="tab_content" style="display:none;">
+				<table border="0" cellspacing="0" class="table_type2" summary="자동조판시스템">
+					<caption>자동조판시스템</caption>
+					<colgroup>
+						<col widtd="10%"><col widtd="10%"><col widtd="*">
+					</colgroup>
+					<thead>
+						<tr>
+							<td colspan="3" align="center">서비스 지원 범위</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td rowspan="2" align="center" class="tc2_1"><b>디자인</b></td>
+							<td align="center" class="tc2_2">기본 제공</td>
+							<td align="left">
+								- 기사관리, 지면관리, 기사입력, 광고관리, 템플렛, 편집/교열, 모니터링
+							</td>
+						</tr>
+						<tr>
+							<td align="center" class="tc2_2">맞춤 변경</td>
+							<td align="left">
+								- 사전 기획 협의<br>
+								- 스크립트 로직 변경이 병행되는 경우 작업 일정 및 범위를 확인하여 추가 작업
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="2" align="center" class="tc2_1"><b>API</b></td>
+							<td align="center" class="tc2_2">기본 API</td>
+							<td align="left">
+								- 컨설팅 후 바로 제공
+							</td>
+						</tr>
+						<tr>
+							<td align="center" class="tc2_2">맞춤 API</td>
+							<td align="left">
+								- 이외 필요한 API 요청 시 작업 가능 여부를 확인한 후 제작하여 제공
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="2" align="center" class="tc2_1"><b>지원</b></td>
+							<td align="center" class="tc2_2">개발</td>
+							<td align="left">
+								- 각종 가이드 문서 전달<br>
+								- 스크립트 오류 수정, 충돌된 영역 수정<br>
+								- 방문 지원(단, 내부지원이 불가능한 사안에 한함)<br>
+								- 설치 후 모니터링<br>
+								- 업무 외 시간 긴급상황 발생 시 조치
+							</td>
+						</tr>
+						<tr>
+							<td align="center" class="tc2_2">운영</td>
+							<td align="left">
+								- 최신 사례, 유사 사례 전달<br>
+								- 서비스 개선 사항 전달<br>
+								- 업무 외 시간 긴급사항 발생 시 커뮤니케이션
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="slxt mb70px">
+					<span class="red">※ 서비스 개시 후 6개월간 미디어토마토 댓글모음/토마토AD 서비스가 전면 무료로 제공됩니다.</span><br>
+					이후 일평균 PV 1000 초과 시 광고가 삽입 될 수 있으며, 삽입된 광고는 소액결제를 통해 삭제 가능합니다.
+				</div>
+			</div>
+			<div id="tab2" class="tab_content" style="display:none;">
+				<table border="0" cellspacing="0" class="table_type2" summary="댓글모음">
+					<caption>댓글모음</caption>
+					<colgroup>
+						<col widtd="10%"><col widtd="10%"><col widtd="*">
+					</colgroup>
+					<thead>
+						<tr>
+							<td colspan="3" align="center">서비스 지원 범위</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td rowspan="2" align="center" class="tc2_1"><b>디자인</b></td>
+							<td align="center" class="tc2_2">기본 제공</td>
+							<td align="left">
+								- 댓글모음, 댓글입력창, sns로그인(페이스북/카카오톡/트위터/구글), 관리자페이지
+							</td>
+						</tr>
+						<tr>
+							<td align="center" class="tc2_2">맞춤 변경</td>
+							<td align="left">
+								- 사전 기획 협의<br>
+								- 스크립트 로직 변경이 병행되는 경우 작업 일정 및 범위를 확인하여 추가 작업
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="2" align="center" class="tc2_1"><b>API</b></td>
+							<td align="center" class="tc2_2">기본 API</td>
+							<td align="left">
+								- 컨설팅 후 바로 제공
+							</td>
+						</tr>
+						<tr>
+							<td align="center" class="tc2_2">맞춤 API</td>
+							<td align="left">
+								- 이외 필요한 API 요청 시 작업 가능 여부를 확인한 후 제작하여 제공
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="2" align="center" class="tc2_1"><b>지원</b></td>
+							<td align="center" class="tc2_2">개발</td>
+							<td align="left">
+								- 각종 가이드 문서 전달<br>
+								- 스크립트 오류 수정, 충돌된 영역 수정<br>
+								- 방문 지원(단, 내부지원이 불가능한 사안에 한함)<br>
+								- 설치 후 모니터링<br>
+								- 업무 외 시간 긴급상황 발생 시 조치
+							</td>
+						</tr>
+						<tr>
+							<td align="center" class="tc2_2">운영</td>
+							<td align="left">
+								- 최신 사례, 유사 사례 전달<br>
+								- 서비스 개선 사항 전달<br>
+								- 업무 외 시간 긴급사항 발생 시 커뮤니케이션
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="slxt mb70px">
+					<span class="red">※ 서비스 개시 후 6개월간 미디어토마토 댓글모음/토마토AD 서비스가 전면 무료로 제공됩니다.</span><br>
+					이후 일편균 PV 1000 초과 시 광고가 삽입 될 수 있으며, 삽입된 광고는 소액결제를 통해 삭제 가능합니다.
+				</div>
+			</div>
+			<div id="tab3" class="tab_content" style="display:none;">
+				<table border="0" cellspacing="0" class="table_type2" summary="토마토AD">
+					<caption>토마토AD</caption>
+					<colgroup>
+						<col widtd="10%"><col widtd="10%"><col widtd="*">
+					</colgroup>
+					<thead>
+						<tr>
+							<td colspan="3" align="center">서비스 지원 범위</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td rowspan="2" align="center" class="tc2_1"><b>디자인</b></td>
+							<td align="center" class="tc2_2">기본 제공</td>
+							<td align="left">
+								- 광고사이즈, 광고 코드
+							</td>
+						</tr>
+						<tr>
+							<td align="center" class="tc2_2">맞춤 변경</td>
+							<td align="left">
+								- 사전 기획 협의<br>
+								- 스크립트 로직 변경이 병행되는 경우 작업 일정 및 범위를 확인하여 추가 작업
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="2" align="center" class="tc2_1"><b>API</b></td>
+							<td align="center" class="tc2_2">기본 API</td>
+							<td align="left">
+								- 광고코드 복사하여 직접 설치가능
+							</td>
+						</tr>
+						<tr>
+							<td align="center" class="tc2_2">맞춤 API</td>
+							<td align="left">
+								- 이외 필요한 API 요청 시 작업 가능 여부를 확인한 후 제작하여 제공
+							</td>
+						</tr>
+						<tr>
+							<td rowspan="2" align="center" class="tc2_1"><b>지원</b></td>
+							<td align="center" class="tc2_2">개발</td>
+							<td align="left">
+								- 각종 가이드 문서 전달<br>
+								- 스크립트 오류 수정, 충돌된 영역 수정<br>
+								- 설치 후 모니터링<br>
+								- 업무 외 시간 긴급상황 발생 시 조치
+							</td>
+						</tr>
+						<tr>
+							<td align="center" class="tc2_2">운영</td>
+							<td align="left">
+								- 최신 사례, 유사 사례 전달<br>
+								- 서비스 개선 사항 전달<br>
+								- 업무 외 시간 긴급사항 발생 시 커뮤니케이션
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				<div class="slxt mb70px">
+					<span class="red">※ 서비스 개시 후 6개월간 미디어토마토 댓글모음/토마토AD 서비스가 전면 무료로 제공됩니다.</span><br>
+					이후 일편균 PV 1000 초과 시 광고가 삽입 될 수 있으며, 삽입된 광고는 소액결제를 통해 삭제 가능합니다.
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div class="clear"></div>
+
+	<div class="scontent">
+		<table border="0" cellspacing="0" class="table_type3" summary="신청하기">
+			<caption>신청하기</caption>
+			<colgroup>
+				<col widtd="*"><col widtd="15%">
+			</colgroup>
+			<thead>
+				<tr>
+					<td align="left">
+						<p>1. 설치를 원하는 서비스 (중복선택가능)</p>
+						<input type="checkbox" id="form2" name="form2" class="list-check">
+						<label for="form2"><b>자동조판시스템</b></label>
+						<input type="checkbox" id="form3" name="form3" class="list-check">
+						<label for="form3"><b>댓글모음</b></label>
+						<input type="checkbox" id="form4" name="form4" class="list-check">
+						<label for="form4"><b>토마토AD</b></label>
+					</td>
+					<td valign="top" align="right">
+						<input type="checkbox" id="checkAll" name="checkAll">
+						<label for="checkAll" class="all"><b class="dgray">전체선택</b></label>
+					</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td colspan="2" align="left">
+						2. 사이트 카테고리<br>
+						<div class="select-wrapper">
+							<select name="category1" id="category1" class="dgray">
+								<option selected="selected" value="0">사이트 카테고리</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+							</select>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="left">
+						3. 설치사이트 성격<br>
+						<div class="select-wrapper">
+							<select name="category1" id="category1" class="dgray">
+								<option selected="selected" value="0">설치사이트</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+							</select>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="left">
+						4. 신청자 정보<br>
+						<ul>
+							<li><input name="" type="text" placeholder="이름"></li>
+							<li><input name="" type="text" placeholder="회사명"></li>
+							<li><input name="" type="text" placeholder="직책"></li>
+							<li class="clear"></li>
+						</ul>
+
+						<input name="" type="text" placeholder="회사 이메일" class="mb10px">
+						<input name="" type="text" placeholder="연락처" class="mb10px">
+						<div class="select-wrapper">
+							<select name="category1" id="category1" class="dgray">
+								<option selected="selected" value="0">통화 가능 시간</option>
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+							</select>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center"><a href="#" class="tt3_btn">신청하기</a></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+<!--## 메인 콘텐츠 시작 : MAIN CONTAINER ##-->
+
+<!--## 푸터 시작 : FOOTER ##-->
+<div class="footer">
+	<div class="footer_case">
+		<!--# 푸터 정보 #-->
+		<div class="f_info">
+			<div class="fi_logo">
+				<img src="./images/logo.png" alt="로고">
+				<span class="ml20px">Copyright ⓒ Mediatomato. All rights reserved.</span>
+			</div>
+			<div class="fi_btxt">
+				미디어토마토는 국내최고 기술을 기반으로<br>
+				디지털 언론사 통합솔루션을 제공합니다.
+			</div>
+			<div class="fi_txt">
+				대표자 : 김성연<br>
+				대표전화 : 02.2128.3849 I 제휴문의 02-2128-3899<br>
+				이메일 : mito@etomato.com<br>
+				서울시 마포구 양화진4길 32 이토마토 3층
+			</div>
+		</div>
+
+		<!--# 푸터 메뉴 #-->
+		<div class="f_menu">
+			<div class="fm_case">
+				<ul>
+					<li><b>바로가기</b></li>
+					<li><a href="index.html">미디어토마토 홈</a></li>
+					<li><a href="agreement.htm">이용약관</a></li>
+					<li><a href="privacy.htm">개인정보 처리방침</a></li>
+				</ul>
+				<p>고객센터<br>02-2128-3805</p>
+			</div>
+
+			<div class="fm_case">
+				<ul>
+					<li><b>바로가기</b></li>
+					<li><a href="http://www.newstong.co.kr" target="_blank">뉴스통</a></li>
+					<li><a href="http://5pinion.com/" target="_blank">댓글모음</a></li>
+					<li><a href="http://cms.tomatos.co.kr" target="_blank">자동조판시스템</a></li>
+					<a href="https://www.etomato.com/home/navigation.aspx" target="_blank" class="fc_btn">Family Site</a>
+				</ul>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+</div>
+<!--## 푸터 끝 : FOOTER ##-->
+
+<!-- 일괄 선택 스크립트 -->
+<script type="text/javascript">
+$('#checkAll').change(function() {
+	$('.list-check').prop('checked', $(this).prop('checked'));
+});
+</script>
+
+<!-- Main Slider -->
+<script type="text/javascript">
+$(window).load(function(){
+	$('.flexslider').flexslider({
+		animation: "slide"
+	});
+});
+</script>
+
+<!-- Swiper JS -->
+<script type="text/javascript" src="./js/swiper.js"></script>
+<script type="text/javascript">
+var swiper = new Swiper('.swiper-container', {
+	pagination: '.swiper-pagination',
+	paginationClickable: true,
+	nextButton: '.swiper-button-next',
+	prevButton: '.swiper-button-prev'
+	/*loop:'auto'*/
+});
+</script>
+
+<!-- faq -->
+<script type="text/javascript" src="./js/highlight.pack.js"></script>
+<script type="text/javascript" src="./js/jquery.accordion.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	//syntax highlighter
+	hljs.tabReplace = '    ';
+	hljs.initHighlightingOnLoad();
+
+	$.fn.slideFadeToggle = function(speed, easing, callback) {
+		return this.animate({opacity: 'toggle', height: 'toggle'}, speed, easing, callback);
+	};
+
+	//accordion
+	$('.accordion').accordion({
+		defaultOpen: 'section',  // 미지정 시 전부 Close 상태
+		cookieName: 'accordion_nav',
+		speed: 'slow',
+		animateOpen: function (elem, opts) { //replace the standard slideUp with custom function
+			elem.next().stop(true, true).slideFadeToggle(opts.speed);
+		},
+		animateClose: function (elem, opts) { //replace the standard slideDown with custom function
+			elem.next().stop(true, true).slideFadeToggle(opts.speed);
+		}
+	});
+});
+</script>
+
+<!-- Main Style : FAQ 최하단 배치 -->
+<script type="text/javascript" src="./js/main.js"></script>
+</body>
+<!--### 전체 레이아웃 끝 : WRAP ###-->
+</html>

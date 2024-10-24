@@ -1,0 +1,563 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!--meta name="viewport" content="widtd=device-widtd,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" /-->
+	<meta name="autdor" content="미디어토마토" />
+	<meta name="copyright" content="미디어토마토" />
+	<meta name="title" content="디지털 언론사 통합솔루션, 미디어토마토">
+	<meta name="keywords"
+		content="미디어토마토, 토마토애드, 댓글모음, 자동조판시스템, 통합솔루션, 디지털 언론사, 뉴스, 신문, 인터넷신문 솔루션, 인터넷신문 저렴한 제작, 인터넷신문 제작, 자동조판,온라인 신문, 인터넷신문 제작, 인터넷신문솔루션, 종이신문제작, 댓글수집, 키워드 광고, 언론사사이트 제작" />
+	<meta name="description"
+		content="미디어토마토, 토마토애드, 댓글모음, 자동조판시스템, 통합솔루션, 디지털 언론사, 뉴스, 신문, 인터넷신문 솔루션, 인터넷신문 저렴한 제작, 인터넷신문 제작, 자동조판,온라인 신문, 인터넷신문 제작, 인터넷신문솔루션, 종이신문제작, 댓글수집, 키워드 광고, 언론사사이트 제작">
+	<meta name="Robots" content="index, follow" />
+	<meta property="og:type" content="website" />
+	<meta property="og:image" content="./images/logo.png" />
+	<meta property="og:site_name" content="미디어토마토 - 디지털 언론사 통합솔루션" />
+	<meta property="og:url" content="http://mito.newstomato.com" />
+	<meta property="og:title" content="디지털 언론사 통합솔루션, 미디어토마토" />
+	<meta property="og:image" />
+	<meta property="og:description"
+		content="미디어토마토, 토마토애드, 댓글모음, 자동조판시스템, 통합솔루션, 디지털 언론사, 뉴스, 신문, 인터넷신문 솔루션, 인터넷신문 저렴한 제작, 인터넷신문 제작, 자동조판,온라인 신문, 인터넷신문 제작, 인터넷신문솔루션, 종이신문제작, 댓글수집, 키워드 광고, 언론사사이트 제작" />
+	<title>::: 미디어토마토 ::: 디지털 언론사 통합솔루션</title>
+
+	<!-- Fav Icon -->
+	<link rel="shortcut icon" href="./images/favicon_tomatoS.ico">
+
+	<!-- Main Style -->
+	<link rel="stylesheet" type="text/css" href="./css/style-noto.css" />
+	<link rel="stylesheet" type="text/css" href="./css/tomatos-noto.css" />
+
+	<!-- Main Javascript -->
+	<script type="text/javascript" src="./js/script.js"></script>
+
+	<!--[if lt IE 9]>
+<script type="text/javascript" src="./js/html5shiv.js"></script>
+<script type="text/javascript" src="./js/respond.min.js"></script>
+<![endif]-->
+	<script type="text/javascript" src="./js/html5shiv.js"></script>
+	<script type="text/javascript" src="./js/respond.min.js"></script>
+
+	<!-- jQuery -->
+	<script type="text/javascript" src="./js/jquery-1.9.1.min.js"></script>
+	<script src="./js/ui/1.11.4/jquery-ui.js"></script>
+	<link rel="stylesheet" href="./js/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="./js/bootstrap.min.js"></script>
+
+	<!-- Scrolling Nav JavaScript -->
+	<script src="./js/jquery.easing.min.js"></script>
+	<script src="./js/scrolling-nav.js"></script>
+
+	<!-- FlexSlider -->
+	<script defer src="./js/jquery.flexslider.js"></script>
+
+	<!-- 구글본고딕 웹폰트 ; 비동기 로더 -->
+	<script type="text/javascript">
+		WebFontConfig = {
+			custom: {
+				families: ['Noto Sans KR'],
+				urls: ['./css/notosanskr.css']
+				/*urls: ['http://fonts.googleapis.com/earlyaccess/nanumgothic.css'] 나눔고딕*/
+			}
+		};
+		(function () {
+			var wf = document.createElement('script');
+			wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+				'://ajax.googleapis.com/ajax/libs/webfont/1.4.10/webfont.js';
+			wf.type = 'text/javascript';
+			wf.async = 'true';
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(wf, s);
+		})(); 
+	</script>
+
+	<!-- 모바일 전환 js -->
+	<script type="text/javascript">
+		var ptype = "";
+
+		if (ptype == null || ptype == "") {
+			if (navigator.userAgent.match(/ipad/) == null && navigator.userAgent.match(/iPhone|ipod|Mobile|Android|Windows Phone/) != null) {
+				location.replace("index_m.aspx");
+			}
+		}
+	</script>
+</head>
+
+<!--### 전체 레이아웃 시작 : WRAP ###-->
+
+<body onload="allblur();" id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+	<!--## 헤더 시작 : HEADER ##-->
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header page-scroll">
+				<a class="navbar-brand page-scroll logo" href="index.aspx"><img src="./images/logo.png"
+						alt="미디어토마토"></a>
+			</div>
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav nav-tabs">
+					<li class="hidden active">
+						<a class="page-scroll" href="#page-top"></a>
+					</li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+							서비스
+							<b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="https://www.newstong.co.kr/" target="_blank">뉴스통</a></li>
+							<li><a href="https://home.searchtong.com/index_client.html" target="_blank">서치통</a></li>
+							<li><a href="http://ad.tomatos.co.kr/" target="_blank">토마토AD</a></li>
+							<li><a href="http://cms.tomatos.co.kr/" target="_blank">자동조판시스템</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="company.aspx" class="">회사소개</a>
+					</li>
+					<li>
+						<a href="report.aspx" class="">보도자료</a>
+					</li>
+					<li>
+						<a href="data.aspx" class="">자료실</a>
+					</li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+							고객지원
+							<b class="caret"></b>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="faq.aspx">자주하는 질문</a></li>
+							<li><a href="inquiry.aspx">문의하기</a></li>
+						</ul>
+					</li>
+				</ul>
+				<ol class="nav navbar-nav nav-tabs">
+					<li>
+						<a href="#" target="_blank" class="facebook"></a>
+					</li>
+					<li class="dropdown">
+						<a class="dropdown-toggle nn_line" data-toggle="dropdown" href="#">
+							<img src="./images/all_menu.png" alt="전체보기">
+						</a>
+						<ul class="dropdown-menu">
+							<li><b>서비스</b></li>
+							<li class="mb10px">
+								<a href="https://www.newstong.co.kr/" target="_blank">뉴스통</a>
+								<a href="https://home.searchtong.com/index_client.html" target="_blank">서치통</a>
+								<a href="http://ad.tomatos.co.kr/" target="_blank">토마토AD</a>
+								<a href="http://cms.tomatos.co.kr/" target="_blank">자동조판시스템</a>
+							</li>
+							<li><b><a href="company.aspx">회사소개</a></b></li>
+							<li><b><a href="report.aspx">보도자료</a></b></li>
+							<li><b><a href="data.aspx">자료실</a></b></li>
+							<li><b>고객센터</b></li>
+							<li class="mb10px">
+								<a href="faq.aspx">자주묻는 질문</a>
+								<a href="inquiry.aspx">문의하기</a>
+							</li>
+							<li><b><a href="#" target="_blank">페이스북</a></b></li>
+						</ul>
+					</li>
+				</ol>
+			</div>
+		</div>
+	</nav>
+	<!--## 헤더 끝 : HEADER ##-->
+
+	<!--## 메인 콘텐츠 시작 : MAIN CONTAINER ##-->
+	<!--# 메인 배너 : MAIN BANNER #-->
+	<div id="intro" class="intro-section">
+		<div class="content">
+			<div class="slider">
+				<div class="flexslider">
+					<ul class="slides">
+						<li>
+							<div class="main_wrap">
+								<div class="xlbtit white">미디어토마토</div>
+								<div class="bxltit white">
+									손쉬운 신문 제작의 혁신!<br>
+									디지털 신문을 제작하는 빠른 솔루션
+								</div>
+								<div class="stxt white">
+									CMS시스템+댓글모음+토마토AD 광고까지 원스탑 솔루션<br>
+									효율적이고 퀄리티 높은 신문제작<br>
+									저비용 고효율 제작시스템 단기간에 구축!
+								</div>
+								<a href="#" class="mt_btn white">자세히 보기</a>
+							</div>
+							<div class="main_img"><img src="./images/main/banner_01.png" alt=""></div>
+						</li>
+						<li>
+							<div class="main_wrap">
+								<div class="xlbtit white">뉴스통</div>
+								<div class="bxltit white">
+									AI가 적용된 개인 맞춤형<br>
+									뉴스 큐레이션 서비스
+								</div>
+								<div class="sltxt white">
+									이미지 중심의 화면구성, 풍부한 동영상 뉴스컨텐츠를<br>
+									터치한번으로 쉽고 빠르게 확인하세요!<br><br>
+									나만의 공간 뉴스북에서<br>
+									자유롭게 게시물을 업로드하며 외부 컨텐츠를 수집할 수 있습니다.
+								</div>
+								<a href="http://www.newstong.co.kr/DefaultNew.aspx" target="_blank"
+									class="mt_btn white">자세히 보기</a>
+							</div>
+							<div class="main_img">
+								<a href="#" class="mi_goo"></a>
+								<a href="#" class="mi_app"></a>
+								<img src="./images/main/banner_05.png" alt="">
+							</div>
+						</li>
+						<li>
+							<div class="main_wrap">
+								<div class="xlbtit white">서치통</div>
+								<div class="bxltit white">조사와 홍보를 향한 새로운 플랫폼</div>
+								<div class="sltxt white">간단한 홍보, 광고부터 참여자들의 생각까지,<br><br>
+									고객 만족도 조사, 정책 홍보, 기업 상품 홍보 등<br>
+									다양한 설문을 서치통에서 시작해 보세요</div>
+								<a href="https://home.searchtong.com/index_client.html" target="_blank"
+									class="mt_btn white">자세히 보기</a>
+							</div>
+							<div class="main_img"><img src="./images/main/banner_03.png" alt=""></div>
+						</li>
+						<li>
+							<div class="main_wrap">
+								<div class="xlbtit white">자동조판 시스템</div>
+								<div class="bxltit white">
+									뉴미디어 시대를 이끌어가는<br>
+									종합신문제작 솔루션
+								</div>
+								<div class="sltxt white">
+									제휴사 CMS와 연동한 자동조판 시스템과 템플릿,<br>
+									스크립트 제작까지 원스탑 솔루션 제공!<br>
+									타사들과 차별화된 획기적이고 효율적인 시스템으로<br>
+									뉴미디어 시대를 이끌어 나갑니다.
+								</div>
+								<a href="http://cms.tomatos.co.kr" target="_blank" class="mt_btn white">자세히 보기</a>
+							</div>
+							<div class="main_img"><img src="./images/main/banner_02.png" alt=""></div>
+						</li>
+						<li>
+							<div class="main_wrap">
+								<div class="xlbtit white">토마토AD</div>
+								<div class="bxltit white">양방향 맞춤 광고 가능!</div>
+								<div class="sltxt white">
+									가사 키워드 분석 솔루션기반으로<br>
+									정확한 광고목적을 설정할 수 있습니다.
+								</div>
+								<a href="https://ad.tomato.co.kr" class="mt_btn white" targer="_blank">자세히 보기</a>
+							</div>
+							<div class="main_img"><img src="./images/main/banner_04.png" alt=""></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="is_content">
+			<div class="main_link">
+				<ul>
+					<li>
+						<b class="ml_tit">자주묻는질문</b>
+						<p class="ml_txt">
+							궁금한 사항을<br>
+							자주 묻는 질문에서 확인하세요
+						</p>
+						<a href="faq.aspx" class="ml_btn">바로가기</a>
+					</li>
+					<li>
+						<b class="ml_tit">자료실</b>
+						<p class="ml_txt">
+							각종 API/제안서 등<br>
+							자료실에서 직접 다운받아보세요
+						</p>
+						<a href="data.aspx" class="ml_btn">바로가기</a>
+					</li>
+					<li>
+						<b class="ml_tit">고객센터</b>
+						<p class="ml_txt">
+							평일 9시~18시 <br>
+							mito@etomato.com
+						</p>
+						<a href="inquiry.aspx" class="ml_btn">바로가기</a>
+					</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+
+	<!--# 뉴스통 : NEWSTONG #-->
+	<div class="ntg_wrap">
+		<div class="content">
+			<div class="xbctit">
+				서비스 소개
+				<p class="xbc_b_bar"></p>
+			</div>
+			<div class="clear"></div>
+			<div class="ser_wrap">
+				<div class="sw_lt">
+					<div class="sl_txt">
+						<b class="xlstit">01. 뉴스통</b>
+						<p class="sltxt">
+							<b class="bltit green">뉴스통 AI 맞춤뉴스</b>
+							이용자 성향에 따라 분석한 AI 맞춤뉴스<br>
+							내가 원하는 뉴스를 쉽고 빠르게 확인
+						</p>
+						<p class="sltxt">
+							<b class="bltit green">세로화면에 최적화된 직관적인 UI</b>
+							기사제목을 클릭하면, 본문이 아래로 펼쳐집니다<br>
+							사진, 본문, 댓글 모두 터치 한번으로 쉽고 편리하게 확인
+						</p>
+						<p class="sltxt">
+							<b class="bltit green">다양한 언론사의 양질의 뉴스 집약</b>
+							홍보성, 광고성, 선정성 기사 필터링 되어<br>
+							실시간 이슈되는 뉴스만 쏙쏙!
+						</p>
+						<a href="http://www.newstong.co.kr/" target="_blank" class="sw_btn">자세히 보기</a>
+					</div>
+					<div class="sl_thum"><img src="./images/main/img04.png" alt="01. 뉴스통" usemap="#Map"
+							style="width:590px;">
+						<map name="Map">
+							<area shape="rect" coords="269,362,425,413" href="#" target="_blank">
+							<area shape="rect" coords="434,362,590,413" href="#" target="_blank">
+						</map>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+
+	<!--# 서치통 : SearchTong #-->
+	<div class="reply_wrap">
+		<div class="content">
+			<div class="ser_wrap">
+				<div class="sw_rt">
+					<div class="sr_thum">
+						<img src="./images/main/img02.png" alt="02. 서치통">
+						<div class="rpl_bottom">
+							<div class="rpl_l">모바일, PC 어디서든.<span>서치통은 ios, android, web 환경을 지원합니다.</span></div>
+							<div class="rpl_r">
+								<ul>
+									<li><a href="https://apps.apple.com/kr/app/%EC%84%9C%EC%B9%98%ED%86%B5/id1608817437"><img
+												src="./images/main/img02_ios.png" alt="Apple Store"></a></li>
+									<li><a href="https://play.google.com/store/apps/details?id=com.etomato.searchtong&hl=ko&gl=US"><img
+												src="./images/main/img02_and.png" alt="Google Play"></a></li>
+									<li><a href="https://www.searchtong.com/Home"><img src="./images/main/img02_web.png"
+												alt="web"></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="sr_txt">
+						<b class="xlstit">02. 서치통</b>
+						<p class="sltxt">
+							<b class="bltit green">높은 패널 응답률</b>
+							더 많은 참여자의 생각을 더 빠르게 받아보세요.<br>
+							서치통은 설문 보상 시스템을 통하여 높은 패널 응답률을 유지합니다.
+						</p>
+						<p class="sltxt">
+							<b class="bltit green">통계 분석 서비스</b>
+							4대 정기여론조사 미디어토마토가 제공하는<br>
+							통계 분석 서비스를 받아보세요.
+						</p>
+						<p class="sltxt">
+							<b class="bltit green">조사결과 뉴스보도</b>
+							조사에 그치지 않고 언론 홍보까지 이어지는 서비스.<br>
+							서치통 패널을 이용할 경우 뉴스토마토 보도도 가능합니다.
+						</p>
+						<a href="https://home.searchtong.com/index_client.html" target="_blank" class="sw_btn">자세히
+							보기</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+
+	<!--# 토마토AD : AD #-->
+	<div class="ad_wrap">
+		<div class="content">
+			<div class="ser_wrap">
+				<div class="sw_lt">
+					<div class="sl_txt">
+						<b class="xlstit">03. 토마토 AD</b>
+						<p class="sltxt">
+							<b class="bltit green">키워드 매칭 솔루션을 통한 광고 송출</b>
+							키워드 매칭 솔루션으로 기존 광고 플랫폼과 달리 언론사 맞춤형 광고 가능<br>
+							기사 본문과 매칭된 광고를 통해 브랜드 공신력 제고 및 광고 클릭율 향상
+						</p>
+						<p class="sltxt">
+
+							<b class="bltit green">국내 광고주에 최적화된 플래폼</b>
+							방대한 DATA, 퀄리티 높은 MEDIA, 완벽한 키워드 TARGETING으로 효과적인<br>
+							광고집행 가능
+						</p>
+						<p class="sltxt">
+
+							<b class="bltit green">개인 퍼블리셔 대상 5분안에 설치 가능한 API</b>
+							간단한 API소스만 추가하면 적용 끝!!<br>
+							사이트 방문자 맞춤광고로 광고수익↑
+						</p>
+						<a href="https://ad.tomato.co.kr/" target="_blank" class="sw_btn">자세히 보기</a>
+					</div>
+					<div class="sl_thum"><img src="./images/main/img03.png" alt="03. 토마토 AD"></div>
+
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+
+	<!--# 서비스소개 : SERVICE #-->
+	<div class="service_wrap">
+		<div class="content">
+			<div class="ser_wrap">
+				<div class="sw_rt">
+					<div class="sr_thum"><img src="./images/main/img01.png" alt="01. 자동조판시스템"></div>
+					<div class="sr_txt">
+						<b class="xlstit">04. 자동조판시스템</b>
+						<p class="sltxt">
+							<b class="bltit green">단기간 내 질높은 신문 제작</b>
+							획기적으로 제작 시간을 단축해 신문의 편집과 디자인 완성도를 높이는데 적극 활용<br>
+							다양한 템플릿은 빠른 지면 변화에 효과적으로 대처할 수 있어 지면의 질적 향상
+						</p>
+						<p class="sltxt">
+							<b class="bltit green">저비용 고효율 제작시스템 단기간에 구축</b>
+							모든 언론사에 적용되는 범용성 높은 제작시스템으로 구축 시간 단축<br>
+							기존 CTS시스템 대비 구축비용 최소화
+						</p>
+						<p class="sltxt">
+							<b class="bltit green">통일된 지면 구축, 다양한 형태로 변형가능</b>
+							템플릿을 각 면별로 특성에 맞게 미리 준비해 신문의 전체 포맷을 통일<br>
+							지면 상황에 따라 손쉽게 응용과 변화 가능
+						</p>
+						<a href="http://cms.tomatos.co.kr" target="_blank" class="sw_btn">자세히 보기</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<!--## 메인 콘텐츠 시작 : MAIN CONTAINER ##-->
+
+	<!--## 푸터 시작 : FOOTER ##-->
+	<div class="footer">
+		<div class="footer_case">
+			<!--# 푸터 정보 #-->
+			<div class="f_info">
+				<div class="fi_logo">
+					<img src="./images/logo.png" alt="로고">
+					<span class="ml20px">Copyright ⓒ Mediatomato. All rights reserved.</span>
+				</div>
+				<div class="fi_btxt">
+					미디어토마토는 국내최고 기술을 기반으로<br>
+					디지털 언론사 통합솔루션을 제공합니다.
+				</div>
+				<div class="fi_txt">
+					대표자 : 권순욱<br>
+					사업자번호 : 319-88-01051<br>
+					<!-- 대표전화 : 02.2128.3879<br> -->
+					뉴스통 제휴문의 : 02.2128.3819 I 여론조사 제휴문의 02.2128.3805<br>
+					이메일 : mito@etomato.com<br>
+					서울시 마포구 양화진4길 32 이토마토빌딩 4층
+				</div>
+			</div>
+
+			<!--# 푸터 메뉴 #-->
+			<div class="f_menu">
+				<div class="fm_case">
+					<ul>
+						<li><b>바로가기</b></li>
+						<li><a href="index.aspx">미디어토마토 홈</a></li>
+						<li><a href="agreement.aspx">이용약관</a></li>
+						<li><a href="privacy.aspx">개인정보 처리방침</a></li>
+					</ul>
+					<p>고객센터<br>mito@etomato.com</p>
+				</div>
+
+				<div class="fm_case">
+					<ul>
+						<li><b>바로가기</b></li>
+						<li><a href="http://www.newstong.co.kr" target="_blank">뉴스통</a></li>
+						<li><a href="https://home.searchtong.com/index_client.html" target="_blank">서치통</a></li>
+						<li><a href="http://ad.tomatos.co.kr/" target="_blank">토마토AD</a></li>
+						<li><a href="http://cms.tomatos.co.kr" target="_blank">자동조판시스템</a></li>
+						<a href="https://www.etomato.com/home/navigation.aspx" target="_blank" class="fc_btn">Family
+							Site</a>
+					</ul>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<!--## 푸터 끝 : FOOTER ##-->
+
+
+	<!-- 일괄 선택 스크립트 -->
+	<script type="text/javascript">
+		$('#checkAll').change(function () {
+			$('.list-check').prop('checked', $(this).prop('checked'));
+		});
+	</script>
+
+	<!-- Main Slider -->
+	<script type="text/javascript">
+		$(window).load(function () {
+			$('.flexslider').flexslider({
+				animation: "slide"
+			});
+		});
+	</script>
+
+	<!-- Swiper JS -->
+	<script type="text/javascript" src="./js/swiper.js"></script>
+	<script type="text/javascript">
+		var swiper = new Swiper('.swiper-container', {
+			pagination: '.swiper-pagination',
+			paginationClickable: true,
+			nextButton: '.swiper-button-next',
+			prevButton: '.swiper-button-prev'
+			/*loop:'auto'*/
+		});
+	</script>
+
+	<!-- faq -->
+	<script type="text/javascript" src="./js/highlight.pack.js"></script>
+	<script type="text/javascript" src="./js/jquery.accordion.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			//syntax highlighter
+			hljs.tabReplace = '    ';
+			hljs.initHighlightingOnLoad();
+
+			$.fn.slideFadeToggle = function (speed, easing, callback) {
+				return this.animate({ opacity: 'toggle', height: 'toggle' }, speed, easing, callback);
+			};
+
+			//accordion
+			$('.accordion').accordion({
+				defaultOpen: 'section',  // 미지정 시 전부 Close 상태
+				cookieName: 'accordion_nav',
+				speed: 'slow',
+				animateOpen: function (elem, opts) { //replace the standard slideUp with custom function
+					elem.next().stop(true, true).slideFadeToggle(opts.speed);
+				},
+				animateClose: function (elem, opts) { //replace the standard slideDown with custom function
+					elem.next().stop(true, true).slideFadeToggle(opts.speed);
+				}
+			});
+		});
+	</script>
+
+	<!-- Main Style : FAQ 최하단 배치 -->
+	<script type="text/javascript" src="./js/main.js"></script>
+</body>
+<!--### 전체 레이아웃 끝 : WRAP ###-->
+
+</html>
